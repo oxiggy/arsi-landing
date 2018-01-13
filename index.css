@@ -1,0 +1,79 @@
+html {
+    height: 100%; 
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a {} 
+.b-slide {
+    box-sizing: border-box; 
+    height: 100vh; 
+    width: 100vw; 
+    background: url(./images/background.jpg);
+    background-size: cover; 
+    background-position: center right;
+    padding-right: 55vw;
+    padding-left: 7vw;
+}
+.b-slide__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    height: 38vh;
+}
+.b-slide__header > p { 
+    color: #3a3a3a;
+    margin: 0;
+    font-size: 2vh; 
+}
+.b-slide__header > h1 {
+    margin: 0;
+    font-size: 6vh; 
+}
+
+.b-main {
+    height: 38vh;
+}
+.b-main__text {
+    font-size: 2vh; 
+    
+}
+.b-main__button {
+    box-sizing: border-box;
+    display: inline-block; 
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-top: 6vh;
+    font-size: 3vh;
+    line-height: 8vh;
+    text-decoration: none; 
+    border: 0.3vh solid #b3707a;
+    color: #b3707a;
+}
+
+.b-slide__footer {
+    margin-top: 5vh;
+    height: 24vh;
+    font-size: 2vh; 
+}
+.b-slide__footer > p {
+    margin: 0;
+    margin-bottom: 1vh;
+}
+.b-slide__footer-social {
+    display: flex;
+}
+.b-slide__footer-social > a {
+    display: block;
+    margin-right: 0.4vw;
+}
+.b-slide__footer-social > a > img {
+    height: 2vh;
+    display: block;
+
+}
